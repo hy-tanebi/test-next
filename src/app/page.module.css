@@ -73,3 +73,12 @@
 
 }
 
+.inner{
+  max-width: 1000px;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap:40px;
+}

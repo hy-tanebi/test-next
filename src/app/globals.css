@@ -42,3 +42,8 @@ a {
 }
 
 
+.sec_inner{
+  max-width: 200px;
+  padding:0 20px;
+
+}
