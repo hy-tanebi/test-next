@@ -1,6 +1,7 @@
-import { Footer } from "../components/Footer";
-import Headline from "../components/Headline";
 import styles from "../page.module.css";
+import { Footer } from "../components/Footer";
+import { Headline } from "../components/Headline";
+import { Links } from "../components/Links";
 
 export const metadata = {
   title: "about Pageeee",
@@ -13,6 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <Headline title="about（アバウト）" />
         <p>これはaboutページ</p>
+        <Links />
       </main>
       <Footer />
     </div>

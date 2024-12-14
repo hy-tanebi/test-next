@@ -1,13 +1,14 @@
 import Image from "next/image";
-import styles from "../page.module.css";
+import styles from "./Headline.module.css";
 
 interface HeadlineProps {
   title: string;
 }
 
-export default function Headline({ title }: HeadlineProps) {
+export function Headline({ title }: HeadlineProps) {
   return (
     <div>
+      <p className={styles.title}>これはテストです。</p>
       <Image
         className={styles.logo}
         src="/next.svg"
